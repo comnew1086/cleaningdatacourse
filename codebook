@@ -1,1 +1,17 @@
+Variables include Exercise labels and subject ids as well as measurement columns after filtering only the 12 columns that contain mean and standard deviation data from 2 measurement devices (the accelerometer and gyroscope).
 
+The columns in the cleaned dataset each account for one variable with the following names:
+- "accel_mean_x",->average normalized value in the x axis from the accelerometer reading in gravity of earth "g"
+- "accel_mean_y",->same as above but in y axis
+- "accel_mean_z",->same as above but in z axis
+- "accel_stdev_x",-> standard deviation normalized value in the x axis from the accelerometer reading in gravity of earth "g"
+- "accel_stdev_y",-> standard deviation normalized value in the y axis from the accelerometer reading in gravity of earth "g"
+- "accel_stdev_z",-> standard deviation normalized value in the z axis from the accelerometer reading in gravity of earth "g"
+-  "gyro_mean_x",->average normalized value in the x axis from the gyroscope reading in angle of radians/second
+- "gyro_mean_y",->average normalized value in the y axis from the gyroscope reading in angle of radians/second
+-  "gyro_mean_z",->average normalized value in the z axis from the gyroscope reading in angle of radians/second
+- "gyro_stdev_x",->standard deviation normalized value in the x axis from the gyroscope reading in angle of radians/second
+- "gyro_stdev_y",->standard deviation normalized value in the y axis from the gyroscope reading in angle of radians/second
+- "gyro_stdev_z",->standard deviation normalized value in the z axis from the gyroscope reading in angle of radians/second
+- "exercise_activity", -> a number 1 to 6 indicating the activity
+- "subject_id" _> a number from 1 to 30 indicating which person did the exercise 
